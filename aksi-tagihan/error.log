@@ -1,0 +1,1 @@
+SQL Error: Cannot add or update a child row: a foreign key constraint fails (`pem.web`.`tagihan_pembayaran`, CONSTRAINT `tagihan_pembayaran_ibfk_1` FOREIGN KEY (`harga`) REFERENCES `golongan_harga` (`harga`) ON DELETE CASCADE ON UPDATE RESTRICT)
